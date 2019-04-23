@@ -1,0 +1,509 @@
+{
+  "feedinfo": {
+    "category": "Notable",
+    "provider_url": "https://ReliaQuest.com",
+    "display_name": "ReliaQuest ATTACK Threat Feed",
+    "name": "RQATF",
+    "tech_data": "This feed allows for proactive approach to the detection of attackers tools, techniques, and procedures(TTPs) through the use of behavioral indicators",
+    "summary": "These queries have been found to provide insight in to anomalous or malicious activity. Recommendation is to ensure alerts generated from this feed are reviewed as these are medium to high confidence indicators",
+    "icon_small": "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",
+    "icon": "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bHVzdHJhdG9yOlN0YXJ0dXBQcm9maWxlAFByaW50TWyDagAAACR0RVh0cGRmOlByb2R1Y2VyAEFkb2JlIFBERiBsaWJyYXJ5IDEwLjAx7z98JAAAAD10RVh0c3RSZWY6ZG9jdW1lbnRJRAB4bXAuZGlkOjIyNDQzMjgxLTE0NTEtNDI5My04MjU2LTdhYjk2MTYwNTg1Nk2uL9YAAAA9dEVYdHN0UmVmOmluc3RhbmNlSUQAeG1wLmlpZDoyMjQ0MzI4MS0xNDUxLTQyOTMtODI1Ni03YWI5NjE2MDU4NTY7ibjcAAAAPnRFWHRzdFJlZjpvcmlnaW5hbERvY3VtZW50SUQAdXVpZDo1RDIwODkyNDkzQkZEQjExOTE0QTg1OTBEMzE1MDhDOB+exmgAAAAcdEVYdHN0UmVmOnJlbmRpdGlvbkNsYXNzAGRlZmF1bHTeeYpJAAAAKHRFWHR4bXA6Q3JlYXRlRGF0ZQAyMDE2LTAxLTI0VDEwOjU5OjE4LTA1OjAwGNGoKgAAADV0RVh0eG1wOkNyZWF0b3JUb29sAEFkb2JlIElsbHVzdHJhdG9yIENDIDIwMTQgKE1hY2ludG9zaClO2gAVAAAAKnRFWHR4bXA6TWV0YWRhdGFEYXRlADIwMTYtMDEtMjRUMTA6NTk6MTgtMDU6MDCQi8etAAAAI3RFWHR4bXA6TW9kaWZ5RGF0ZQAyMDE2LTAxLTI0VDE1OjU5OjI4WuMLcz0AAAA9dEVYdHhtcE1NOkRvY3VtZW50SUQAeG1wLmRpZDo2ZDc4NWM0My1kNTVlLTRmNzUtYjhhZi02OWU2MzQyMTVlOTPbwpmOAAAAPXRFWHR4bXBNTTpJbnN0YW5jZUlEAHhtcC5paWQ6NmQ3ODVjNDMtZDU1ZS00Zjc1LWI4YWYtNjllNjM0MjE1ZTkzreUOhAAAAD50RVh0eG1wTU06T3JpZ2luYWxEb2N1bWVudElEAHV1aWQ6NUQyMDg5MjQ5M0JGREIxMTkxNEE4NTkwRDMxNTA4Qzj06MMmAAAAHHRFWHR4bXBNTTpSZW5kaXRpb25DbGFzcwBkZWZhdWx02ZLcggAAAABJRU5ErkJggg=="
+  },
+  "reports": [
+    {
+      "title": "RQ-SH-000148-02 - Audit Log Cleared",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Awevtutil.exe%20%28cmdline%3Acl%20OR%20cmdline%3Aclear-log%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "3384aec92bef69672253fc47e1da96ef"
+    },
+    {
+      "title": "RQ-SH-000624-01 - Carbon Black Executable Spawning Processes",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Acb.exe%20child_process%3A%2A"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "19f18f6cc1c49d7d2d49fd057d291e60"
+    },
+    {
+      "title": "RQ-SL-000641-01 - Execution Bypass with Control Panel",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Acontrol.exe%20cmdline%3A%2A.cpl%2A%20-cmdline%3A%2AWindows%2A"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "c47e176284ffaa665393b5ee8c4d1515"
+    },
+    {
+      "title": "RQ-SH-000654-02 - Execution Bypass with Mshta",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Amshta.exe%20%28cmdline%3A%2Ahttp%2A%20OR%20cmdline%3A%2Avbscript%2A%20OR%20cmdline%3A%2Ajavascript%2A%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "bf75bf8a9b07238571a56dbaf0cdecf6"
+    },
+    {
+      "title": "RQ-SH-000655-02 - Execution Bypass with Regsvr32",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Aregsvr32.exe%20%28cmdline%3A%2Ahttp%2A%20OR%20cmdline%3A%2A.sct%2A%20OR%20%28netconn_count%3A%5B1%20to%20%2A%5D%20-ipport%3A389%29%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "e3093697fa0ec8fcfeff9b869ac69753"
+    },
+    {
+      "title": "RQ-SH-000656-01 - Execution Bypass with Rundll32",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Arundll32.exe%20%28%28cmdline%3A%2Ajavascript%2A%29%20OR%20%28netconn_count%3A%5B1%20to%20%2A%5D%20-ipaddr%3A10.0.0.0%2F8%20-ipaddr%3A192.168.0.0%2F16%20-ipaddr%3A172.16.0.0%2F12%29%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "3e8a2ae89fcbd01f84ff4c849ea230d5"
+    },
+    {
+      "title": "RQ-SM-000657-01 - DLL Registry Injection",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28regmod%3Asoftware%5Cmicrosoft%5Cwindows%20nt%5Ccurrentversion%5Cwindows%5Cappinit_dlls%20OR%20regmod%3Asoftware%5Cwow6432node%5Cmicrosoft%5Cwindows%20nt%5Ccurrentversion%5Cwindows%5Cappinit_dlls%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "3424337082db1f160db04df36b80589d"
+    },
+    {
+      "title": "RQ-SH-000658-01 - Registry Debugger Injection",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=regmod%3AImage%20File%20Execution%20Options%2ADebugger"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "0c8ce0fb1ce983643aaa352263a10f3c"
+    },
+    {
+      "title": "RQ-SH-000660-01 - Background File Transfer",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Abitsadmin.exe%20%28cmdline%3A%2Fcreate%20OR%20cmdline%3A%2Faddfile%20OR%20cmdline%3A%2Ftransfer%20OR%20cmdline%3A%2Fresume%20OR%20cmdline%3A%2Fsetnotifyflags%20OR%20cmdline%3A%2Fsetnotifycmdline%20OR%20cmdline%3A%2Fsetcustomheaders%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "acad5770d5f96b1423431cd689182c21"
+    },
+    {
+      "title": "RQ-SH-000666-01 - Microsoft Office DLL Injection",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=regmod%3Auser%2ASoftwareMicrosoftOffice%20testSpecialPerf"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "6e6e82d220ea48358bee44c5f6a29595"
+    },
+    {
+      "title": "RQ-SM-000669-01 - Data Deobfuscation",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28process_name%3Acertutil.exe%20cmdline%3A-decode%29%20OR%20%28cmdline%3Acopy%20%5Cb%20OR%20%28cmdline%3Auudecode%20-cmdline%3A%2APKInstallSandbox%2A%29%20OR%20cmdline%3Abase64%20-d%20OR%20cmdline%3Abase64%20--decode%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "46fad75ee457ea2b7bba493bd5097eef"
+    },
+    {
+      "title": "RQ-SM-000670-02 - SUID Privilege Escalation Recon",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=path%3Ausr%2Fbin%2Ffind%20cmdline%3A-perm%20%28cmdline%3A%2A4000%20OR%20cmdline%3A%2Au%3Ds%2A%20OR%20cmdline%3A%2Au%2Bs%2A%20OR%20cmdline%3A%2Ag%2Bs%2A%20OR%20cmdline%3A%2Ag%3Ds%2A%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "53cd839fde90716c7e22998236e5bc13"
+    },
+    {
+      "title": "RQ-SM-000694-01 - WMIC Process Creation",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Awmic.exe%20cmdline%3Aprocess%20call%20create"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "38163aba0cdab2268d8b6c57fe2a0621"
+    },
+    {
+      "title": "RQ-SH-000696-01 - Credential Dumping",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28%28process_name%3Aprocdump.exe%20OR%20process_name%3Aprocdump64.exe%29%20AND%20%28cmdline%3Alsass.exe%20OR%20crossproc_name%3Alsass.exe%29%29%20OR%20%28process_name%3Ataskmgr.exe%20crossproc_name%3Alsass.exe%20filemod%3Alsass%2A.dmp%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "ac530db42cae29dced9ba9c83c1a591a"
+    },
+    {
+      "title": "RQ-SM-000697-01 - WinSxS DLL Side-Loading",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28filemod%3Asxs%2F%2A.dll%20or%20filemod%3Awinsxs%2F%2A.dll%29%20-digsig_result%3Asigned"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "e59d22fcf5d9bb5f51cf6136266c5edb"
+    },
+    {
+      "title": "RQ-SH-000702-01 - Root Cert Installed",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=cmdline%3A-addstore%20cmdline%3A%22ROOT%22%20process_name%3Acertutil.exe%20os_type%3Awindows"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "48b2d66fad2f0ce46bf4079744a664ac"
+    },
+    {
+      "title": "RQ-SH-000706-01 - Credential Harvesting",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28process_name%3Afindstr.exe%20cmdline%3Apassword%29%20OR%20%28process_name%3Acmd.exe%20cmdline%3Adir%20%28cmdline%3Aunattend.xml%20OR%20cmdline%3Aweb.config%20OR%20cmdline%3Asysprep%2A%20OR%20cmdline%3Avnc.ini%20OR%20cmdline%3A%2Apass%2A%29%29%20OR%20%28process_name%3Areg.exe%20cmdline%3Aquery%20%28cmdline%3Apassword%20OR%20cmdline%3A%22HKCUSoftwareSimonTathamPuTTYSessions%22%20OR%20cmdline%3A%22HKLMSOFTWAREMicrosoftWindows%20NTCurrentversionWinlogon%22%20OR%20cmdline%3A%22HKLMSYSTEMCurrentControlSetServicesSNMP%22%29%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "1db0d7c8d0c04629f1dec1259af54981"
+    },
+    {
+      "title": "RQ-SH-000779-01 - Microsoft Office Writing an Executable",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28process_name%3Awinword.exe%20OR%20process_name%3Aexcel.exe%20OR%20process_name%3Apowerpnt.exe%29%20AND%20is_executable_image_filewrite%3Atrue"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "fd1ed73e5298c1d8434193c387ecaf66"
+    },
+    {
+      "title": "RQ-SM-000780-01 - Execution from Suspicious Locations",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=path%3AWindows%2FIME%2F%2A.exe%20OR%20path%3ASystem%20Volume%20Information%2A%20OR%20path%3ARECYCLER%2F%2A.exe%20OR%20path%3A%24recycle.bin%2A%20OR%20path%3Aappdata%2A%20or%20path%3AApplication%20Data%2A%20OR%20path%3A.Trash%2F%2A%20OR%20path%3A.Trashes%2F%2A"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "4994b8f8a995bf9497e15a1f5c0e9d6a"
+    },
+    {
+      "title": "RQ-SH-000781-01 - Proxy Modifications by Shell or Script",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=regmod%3Aautoconfigurl%20and%20regmod%3Awpadnetworkname%20and%20regmod%3Aproxyenable%20and%20%28process_name%3Awscript.exe%20or%20process_name%3Apowershell.exe%20or%20process_name%3Acmd.exe%20or%20process_name%3Acscript.exe%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "e31d466df05a4eabbbc46c89d81d3ae3"
+    },
+    {
+      "title": "RQ-SH-000783-01 - Double Extension Process",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3A%2A.txt.exe%20OR%20process_name%3A%2A.pdf.exe%20OR%20process_name%3A%2A.rtf.exe%20OR%20process_name%3A%2A.jpg.exe%20OR%20process_name%3A%2A.xml.exe%20OR%20process_name%3A%2A.gif.exe%20OR%20process_name%3A%2A.htm.exe%20OR%20process_name%3A%2A.html.exe%20OR%20process_name%3A%2A.doc.exe%20OR%20process_name%3A%2A.xls.exe%20OR%20process_name%3A%2A.ppt.exe%20OR%20process_name%3A%2A.docx.exe%20OR%20process_name%3A%2A.xlsx.exe%20OR%20process_name%3A%2A.pptx.exe"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "7db8551a45f98848a28b8197afcbd269"
+    },
+    {
+      "title": "RQ-SH-000784-01 - Process Name Impersonation",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Aisass.exe%20OR%20process_name%3Asvch0st.exe%20OR%20modload%3Asvchost.dll%20OR%20process_name%3Alexplore.exe%20OR%20process_name%3Alexplorer.exe%20OR%20process_name%3Asvchosts.exe%20OR%20process_name%3Acsrsr.exe%20OR%20process_name%3Aexplore.exe%20OR%20process_name%3Aiexplorer.exe"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "aa3832a1d7b4cb1c6e737150d6edd68e"
+    },
+    {
+      "title": "RQ-SH-000785-01 - Ransomware Instruction Filenames",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=filemod%3Ahelp_your_files.%2A%20or%20filemod%3Ahelp_decrypt.%2A%20or%20filemod%3A%3D%3Dread%3D%3Dthis%3D%3Dplease%3D%3D%2A"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "7abc14722c30ab0b5508e55ee9b663f9"
+    },
+    {
+      "title": "RQ-SM-000786-01 - Svchost Spawned by Non-standard User",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Asvchost.exe%20-username%3ASYSTEM%20-username%3ANETWORK%20SERVICE%20-username%3ALOCAL%20SERVICE"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "f1c42b3e92573ee17943639e8775deb5"
+    },
+    {
+      "title": "RQ-SH-000789-01 - Mimikatz Detected",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=modload%3Asamlib.dll%20AND%20modload%3Avaultcli.dll%20AND%20-digsig_result%3Asigned"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "df66420ddc2a63efe4ebe528d35978ae"
+    },
+    {
+      "title": "RQ-SM-000790-01 - Long PowerShell Command Line",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=cmdline%3A%28truncated%29%20cmdline%3A-windowstyle%20OR%20cmdline%3A-w"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "b2438b73c8433bda6bfffaa40ce2f5e7"
+    },
+    {
+      "title": "RQ-SH-000792-01 - Active Directory Database Dump",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Antdsutil.exe%20%28cmdline%3Aifm%20or%20cmdline%3Acreate%20full%20or%20cmdline%3Aactivate%20instance%20or%20cmdline%3Aac%20I%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "b00f49a600b39c4f5276ab821e2c9482"
+    },
+    {
+      "title": "RQ-SM-000810-01 - Time Provider DLL Injection",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=regmod%3ASystemCurrentControlSetServicesW32TimeTimeProviders%2A%20-process_name%3Asvchost.exe"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "92e7d1e98c9dbffe173ecf899c27ba53"
+    },
+    {
+      "title": "RQ-SH-000811-01 - Suspicious Process Launching Executables",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28process_name%3Anotepad.exe%20OR%20process_name%3Acalc.exe%29%20AND%20childproc_name%3A%2A.exe"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "a4f40479608e18958f460df3a87ea48d"
+    },
+    {
+      "title": "RQ-SH-000812-01 - File Encryption from Unsigned Process",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=-digsig_result%3ASigned%20AND%20childproc_name%3Acipher.exe"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "1a2fa92c5978c35808e907be76f6cbcf"
+    },
+    {
+      "title": "RQ-SH-000816-01 - WinRM Activated",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=process_name%3Asc.exe%20cmdline%3Astart%20winrm"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "fc57d867b725ccfd22da84c025903267"
+    },
+    {
+      "title": "RQ-SH-000817-01 - PowerShell Execution Policy Modified",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=%28regmod%3AsoftwareMicrosoftPowerShell1ShellIdsMicrosoft.PowerShellExecutionPolicy%20-process_name%3Apowershell%2A%29"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "4a1000b0ff298392b6fe002b03ad3c2e"
+    },
+    {
+      "title": "RQ-SM-000820-01 - Executable Written to Outlook Folder",
+      "timestamp": 1544126989,
+      "iocs": {
+        "query": [
+          {
+            "index_type": "events",
+            "search_query": "cb.urlver=1&q=filemod%3AContent.Outlook%2A%20and%20is_executable_image_filewrite%3ATrue"
+          }
+        ]
+      },
+      "score": 100,
+      "link": "Local File",
+      "id": "d73780c06141e3b6a8d40a89ae324a1c"
+    }
+  ]
+}
